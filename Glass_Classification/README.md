@@ -31,4 +31,4 @@ I have used KNN machine learning algorithm to classify the glasses. KNN is a sup
 
 __Metrics__:
 
-I have used confusion matrix and classification report as metric for the evaluation of best distance method. I have also found out the best amount of nearest neighbors for the evaluation.
+I have used accuracy and classification report as metric for the evaluation of best distance method. I have also found out the best amount of nearest neighbors for the evaluation.
