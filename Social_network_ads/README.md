@@ -12,12 +12,21 @@ The dataset is built upon Logistic Regression, K-Nearest Neighbors (KNN), Suppor
 ### Metrics
 Confusion matrix is used as a metric for performance evaluation.
 
-*Confustion Matrix
+***Confustion Matrix***
 
 A confusion matrix is a NxN matrix used for evaluating the performance of a classification model, where N is the no of classes. 
 The matrix compares the actual target values with those predicted by the ML model. For a binary classification, the confusion matrix is as shown below.
 
+![alt text](https://github.com/rasunag27/ML_Projects/blob/main/Social_network_ads/confusion_matrix.JPG?raw=true)
 
+In the above matrix,
+
+*True Positive (TP)*: The actual value is positive and the predicted value is positive.
+*True Negative (TN)*: The actual value is negative and the predicted value is negative.
+*False Positive (FP)*: The predicted value is falsely predicted. Here, the actual value is negative while the predicted value is positive.
+*False Negative (FN)*: The predicted value is falsely predicted. Here, the actual value is positive while the predicted value is negative.
+
+Confusion matrix is a good evaluation metric compared to accuracy. Accuracy will be biased when it comes to imbalanced dataset.
 
 ### Visualization
-For each of the model, I have created visualization for both training and testing dataset from which we can see the distintion clearly whether the user purchased SUV or not.
+For each of the model, I have created visualization for both training and testing dataset from which we can see a clear distinction visually of the target values.
