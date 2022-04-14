@@ -21,10 +21,10 @@ The matrix compares the actual target values with those predicted by the ML mode
 
 In the above matrix,
 
-*True Positive (TP)*: The actual value is positive and the predicted value is positive.
-*True Negative (TN)*: The actual value is negative and the predicted value is negative.
-*False Positive (FP)*: The predicted value is falsely predicted. Here, the actual value is negative while the predicted value is positive.
-*False Negative (FN)*: The predicted value is falsely predicted. Here, the actual value is positive while the predicted value is negative.
+* *True Positive (TP)*: The actual value is positive and the predicted value is positive.
+* *True Negative (TN)*: The actual value is negative and the predicted value is negative.
+* *False Positive (FP)*: The predicted value is falsely predicted. Here, the actual value is negative while the predicted value is positive.
+* *False Negative (FN)*: The predicted value is falsely predicted. Here, the actual value is positive while the predicted value is negative.
 
 Confusion matrix is a good evaluation metric compared to accuracy. Accuracy will be biased when it comes to imbalanced dataset.
 
