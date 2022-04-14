@@ -7,7 +7,12 @@
 * Each model is built in a separate python just to understand each of the models individually. 
 
 ### Models
-The dataset is built upon Logistic Regression, K-Nearest Neighbors (KNN), Support vector machine (SVM), Decision trees and Random Forest.
+The dataset is built upon five different models.
+* Logistic Regression
+* K-Nearest Neighbors (KNN) 
+* Support vector machine (SVM) 
+* Decision trees and 
+* Random Forest.
 
 ### Metrics
 Confusion matrix is used as a metric for performance evaluation.
